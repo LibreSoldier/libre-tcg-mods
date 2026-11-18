@@ -1,3 +1,24 @@
 {
-  "mods": []
+  "mods": [
+    {
+      "guid": "libre.multiwindow",
+      "name": "Libre's Multi Window",
+      "version": "0.2.0",
+      "description": "Keeps the game window on screen when another window gets the focus, instead of minimizing it. Lets you keep two game windows side by side, one on each monitor.",
+      "logo": "https://raw.githubusercontent.com/LibreSoldier/libre-tcg-multiwindow/main/logo.png",
+      "file": "LibreTcgMultiWindow.dll",
+      "url": "https://github.com/LibreSoldier/libre-tcg-multiwindow/releases/download/v0.2.0/LibreTcgMultiWindow.dll",
+      "sha256": "9c5a164c85d847ee2fb6602c7fb56187f8861aa95447f0380143d669e1e4cd61"
+    },
+    {
+      "guid": "libre.quickquit",
+      "name": "Libre's Quick Quit",
+      "version": "0.1.0",
+      "description": "Closes the game right after you confirm quitting, instead of waiting for Unity's slow shutdown (which can freeze the window, especially under Wine).",
+      "logo": "https://raw.githubusercontent.com/LibreSoldier/libre-tcg-quickquit/main/logo.png",
+      "file": "LibreTcgQuickQuit.dll",
+      "url": "https://github.com/LibreSoldier/libre-tcg-quickquit/releases/download/v0.1.0/LibreTcgQuickQuit.dll",
+      "sha256": "d5e4046e1406086f033b497a3c7ecfb7ddaa0f766925027928fde6c7705f51b4"
+    }
+  ]
 }
